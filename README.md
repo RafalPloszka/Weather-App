@@ -4,6 +4,9 @@ Simple weather app using OpenWeather API. You can check the current weather in t
 It was created using React hooks and context API (for theme change).
 I am the author of all weather graphics :art:
 
+## Demo
+To view a demo [click here](https://rafal-ploszka-cloud-nine.herokuapp.com/).
+
 ## Getting started
 Clone down this repo. You will need node and npm installed globally on your machine.  
 Sign up over at openweathermap.org to get an API key.  
