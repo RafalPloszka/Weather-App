@@ -25,7 +25,6 @@ body {
 .app-wrapper {
   background-color: rgba(206, 237, 252, 0.822);
   position: relative;
-  /*background: rgb(12, 40, 53, 0.8);*/
   width: 90%;
   height: 500px;
   margin-top: 30px;
@@ -49,7 +48,6 @@ body {
 .header h1 {
   text-align: center;
   font-family: 'Chelsea Market', cursive;
-  /*font-size: 40px;*/
   color: #3498db;
   margin-right: 20px;
   word-wrap: none;
@@ -69,13 +67,6 @@ body {
   color: #ff9100;
 }
 
-/*.main {
-  display: flex;
-  flex-direction: column;
-  align-items: space-between;
-  margin-bottom: 50px;
-  width: 100%;
-}*/
 .form {
   display: flex;
   justify-content: center;
@@ -89,7 +80,6 @@ body {
 
 .form-input {
   width: 100%;
-  /*min-width: 250px;*/
   padding: 15px 10px 10px 20px;
   margin-right: 10px;
   font-size: 12px;
@@ -167,13 +157,6 @@ body {
   text-align: center;
   color: #d61717;
   font-size: 18px;
-}
-
-.wind {
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  background: url("./icons/wind.png") center/cover;
 }
 
 .toggle-btn {

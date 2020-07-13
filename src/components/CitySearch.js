@@ -1,7 +1,6 @@
 import React from 'react';
 
 const CitySearch = (props) => {
-    /*const {api_call} = useContext(DataContext)*/
     return (
         <form onSubmit={props.api_call} className="form">
             <input

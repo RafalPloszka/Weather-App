@@ -18,22 +18,13 @@ const ToggleTheme = () => {
       {icon ? (
         <div className="toggle-content">
           <p>Darkmode</p>
-				  <img className="power-icon" src={turnoff}/></div>
+				  <img className="power-icon" src={turnoff} alt="darkmode icon"/></div>
 			) : (
         <div className="toggle-content">
           <p className="lightmode-caption">Lightmode</p>
-				  <img className="power-icon" src={turnon}/></div>
+				  <img className="power-icon" src={turnon} alt="lightmode icon"/></div>
 			)}
     </div>
-		/*<div className="toggle__box">
-				<img src={on} style={{width: '20px', height: '20px'}}></img>
-			<div className="toggle__btn" onClick={toggleTheme}>
-				<input type="checkbox" className="checkbox" onChange={iconChange}  />
-				<div className="circle"></div>
-				<div className="layer"></div>
-			</div>
-				<img src={off} style={{width: '20px', height: '20px'}}></img>
-    </div>*/
 	)
 }
 

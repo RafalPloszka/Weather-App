@@ -1,4 +1,4 @@
-import React, {useState, useContext} from 'react';
+import React, {useState} from 'react';
 import axios from 'axios';
 import '../App.css';
 
@@ -17,6 +17,7 @@ const Main = () => {
 
   const api_call = async e => {
     e.preventDefault();
+
     const location = e.target.elements.location.value;
     const API_KEY = "5d4b040d238a8331a9bc42feba775440";
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${API_KEY}&units=metric`;

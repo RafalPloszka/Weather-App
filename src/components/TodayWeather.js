@@ -28,7 +28,6 @@ const TodayWeather = ({weather, city}) => {
 
     const imageUrl = require(`../icons/${icon0}.png`)
 
-
     const date = new Date()
     
     return (
